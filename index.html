@@ -1,0 +1,860 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>海外防制洗錢法規動態</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@400;500&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@300;400;500&display=swap">
+<style>
+/* Layout: 一欄式編排，左側窄欄放編號與括號標籤，右側放內容；大留白、細線分隔，目錄以全螢幕疊層呈現 */
+:root{
+  --bg:#EAE7E1;
+  --paper:#F3F1EC;
+  --ink:#1F1D1A;
+  --muted:#6F6A62;
+  --rule:#CBC6BC;
+  --accent:#6B5641;
+  --mark:#D9D3C7;
+  --serif-lat:"Cormorant Garamond","Noto Serif TC","Songti TC",Georgia,serif;
+  --serif:"Noto Serif TC","Songti TC","PMingLiU",Georgia,serif;
+  --sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --label:"Jost","Noto Sans TC",system-ui,sans-serif;
+  --scale:1;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#171614;--paper:#1F1D1A;--ink:#E9E5DD;--muted:#A19B91;--rule:#36332E;--accent:#C7B194;--mark:#2C2925;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171614;--paper:#1F1D1A;--ink:#E9E5DD;--muted:#A19B91;--rule:#36332E;--accent:#C7B194;--mark:#2C2925;color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;font-size:calc(16.5px*var(--scale));line-height:1.85;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+a{color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--ink)}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+:focus-visible{outline:1px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+@media (max-width:600px){.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+.lab{font-family:var(--label);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.num{font-family:var(--serif-lat);font-weight:300;font-style:italic}
+[data-period="p1"] [data-p="2"],[data-period="p2"] [data-p="1"]{display:none!important}
+
+/* top bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--rule)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:58px;flex-wrap:wrap;padding-block:8px}
+.bar .brand{font-family:var(--label);font-size:12px;letter-spacing:.22em;text-transform:uppercase}
+.seg{display:flex;gap:4px;flex-wrap:wrap}
+.seg button{font-family:var(--label);font-size:11.5px;letter-spacing:.14em;padding:6px 12px;border:1px solid transparent;border-radius:999px;color:var(--muted)}
+.seg button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink)}
+.seg button:hover{color:var(--ink)}
+.tools{display:flex;gap:18px;align-items:center}
+.tools button{font-family:var(--label);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase}
+.tools button[aria-pressed="true"]{text-decoration:underline;text-underline-offset:5px}
+@media (max-width:760px){.bar .brand{display:none}.bar .wrap{justify-content:center}}
+
+/* hero */
+.hero{padding-block:clamp(56px,10vw,120px) 64px}
+.hero .lab{display:block;margin-bottom:28px}
+.hero h1{font-family:var(--serif);font-weight:300;font-size:clamp(40px,7.4vw,96px);line-height:1.12;margin:0;letter-spacing:.02em;text-wrap:balance}
+.hero h1 em{font-family:var(--serif-lat);font-style:italic;font-weight:300;letter-spacing:0}
+.hero .range{font-family:var(--serif-lat);font-size:clamp(22px,2.6vw,32px);font-weight:300;margin:18px 0 0}
+.hero .intro{max-width:34em;color:var(--muted);margin:28px 0 0}
+
+/* timeline */
+.tl-scroll{margin-top:64px;overflow-x:auto;overflow-y:hidden}
+.tl{position:relative;min-width:760px;padding:110px 14px 190px 4px}
+.tl-wrap{position:relative;height:1px}
+.tl-line{position:absolute;inset:0;background:var(--ink)}
+.tl-split{position:absolute;top:-14px;height:28px;width:0;border-left:1px dashed var(--muted)}
+.tl-start{position:absolute;left:0;top:14px;font-family:var(--serif-lat);font-size:22px;line-height:1;color:var(--muted)}
+.mk{position:absolute;left:var(--x);top:0;width:0;height:0;text-decoration:none;--gap:calc(16px + var(--tier,0)*84px)}
+.mk .dot{position:absolute;left:-6px;top:-6px;width:11px;height:11px;border-radius:50%;background:var(--bg);border:1px solid var(--ink);transition:background .2s}
+.mk.rng .dot{left:calc(var(--w)/-2);width:var(--w);border-radius:6px}
+.mk .stem{position:absolute;left:0;width:1px;background:var(--muted);height:calc(var(--gap) - 6px)}
+.mk.up .stem{bottom:6px}
+.mk.dn .stem{top:6px}
+.mk .txt{position:absolute;display:flex;flex-direction:column;gap:2px;white-space:nowrap}
+.mk.up .txt{bottom:var(--gap)}
+.mk.dn .txt{top:var(--gap)}
+.mk.c .txt{left:0;transform:translateX(-50%);align-items:center;text-align:center}
+.mk.l .txt{right:-1px;align-items:flex-end;text-align:right}
+.mk.r .txt{left:0;align-items:flex-start;text-align:left}
+.mk .d{font-family:var(--serif-lat);font-size:22px;line-height:1.1}
+.mk .t{font-size:16px;line-height:1.45;transition:color .2s}
+.mk:hover .dot,.mk:focus-visible .dot{background:var(--ink)}
+.mk:hover .t,.mk:focus-visible .t{color:var(--accent)}
+
+/* sections */
+.sec{border-top:1px solid var(--rule);padding-block:clamp(64px,8vw,112px);scroll-margin-top:calc(60px + env(safe-area-inset-top,0px))}
+.sec-in{display:grid;grid-template-columns:220px minmax(0,1fr);gap:32px 48px}
+.sh-meta{display:flex;flex-direction:column;gap:10px;align-self:start;position:sticky;top:calc(96px + env(safe-area-inset-top,0px))}
+.sh-meta .num{font-size:44px;line-height:1}
+.sb{min-width:0;max-width:820px}
+.sb h2{font-family:var(--serif);font-weight:400;font-size:clamp(28px,3.6vw,44px);line-height:1.3;margin:0;text-wrap:balance}
+.sb .date{font-family:var(--label);font-size:12.5px;letter-spacing:.08em;color:var(--muted);margin:14px 0 0}
+.lead{font-size:1.12em;margin:32px 0 0;max-width:38em}
+.sb h3{font-family:var(--label);font-weight:400;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:56px 0 18px}
+.sb p{margin:14px 0 0}
+.note{color:var(--muted);font-size:.94em}
+@media (max-width:860px){.sec-in{grid-template-columns:1fr;gap:20px}.sh-meta{position:static;flex-direction:row;align-items:baseline;gap:16px}.sh-meta .num{font-size:32px}}
+
+.chapter{padding-block:clamp(64px,9vw,128px) 24px;border-top:1px solid var(--ink)}
+.chapter .wrap{display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px;align-items:end}
+.chapter .big{font-family:var(--serif-lat);font-weight:300;font-size:clamp(56px,10vw,140px);line-height:.9}
+.chapter h2{font-family:var(--serif);font-weight:300;font-size:clamp(24px,3vw,36px);margin:0}
+.chapter p{color:var(--muted);margin:10px 0 0}
+@media (max-width:860px){.chapter .wrap{grid-template-columns:1fr;gap:12px}}
+
+/* rows (generic hairline list) */
+.rows{border-top:1px solid var(--ink);margin-top:8px}
+.row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:8px 32px;padding:18px 0;border-bottom:1px solid var(--rule)}
+.row>.k{font-family:var(--serif);font-weight:500;font-size:15.5px}
+.row>.v{min-width:0}
+@media (max-width:600px){.row{grid-template-columns:1fr}}
+
+/* overview matrix */
+.mx{overflow-x:auto;margin-top:8px}
+.mx table{width:100%;border-collapse:collapse;min-width:640px}
+.mx th,.mx td{text-align:left;vertical-align:top;padding:16px 18px 16px 0;border-bottom:1px solid var(--rule);font-weight:300}
+.mx thead th{border-bottom:1px solid var(--ink);padding-bottom:12px}
+.mx tbody th{font-family:var(--serif);font-weight:500;width:120px;white-space:nowrap}
+.mx td.none{color:var(--muted)}
+.mx tr.go{cursor:pointer}
+.mx tr.go:hover td,.mx tr.go:hover th{background:var(--mark)}
+.mx td a{text-decoration:none}
+.pill{display:inline-block;font-family:var(--label);font-size:10.5px;letter-spacing:.14em;border:1px solid var(--ink);border-radius:999px;padding:1px 9px;margin-right:6px;vertical-align:2px;white-space:nowrap}
+.pill.soft{border-color:var(--rule);color:var(--muted)}
+
+/* tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--rule)}
+.tabs button{padding:12px 18px 12px 0;margin-right:18px;font-family:var(--serif);font-size:16px;color:var(--muted);border-bottom:1px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.panel{padding:24px 0 0;min-height:7em}
+.panel ul{margin:0;padding-left:1.1em}
+.panel li{margin:6px 0}
+
+/* accordion */
+details.acc{border-bottom:1px solid var(--rule)}
+details.acc:first-of-type{border-top:1px solid var(--ink)}
+details.acc summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:150px minmax(0,1fr) 20px;gap:24px;padding:16px 0;align-items:baseline}
+details.acc summary::-webkit-details-marker{display:none}
+details.acc summary .k{font-family:var(--serif);font-weight:500}
+details.acc summary::after{content:"+";font-family:var(--serif-lat);font-size:22px;line-height:1;color:var(--muted);text-align:right}
+details.acc[open] summary::after{content:"–"}
+details.acc .body{padding:0 0 20px 174px;color:var(--ink)}
+@media (max-width:600px){details.acc summary{grid-template-columns:1fr 20px}details.acc summary .k{grid-column:1/-1}details.acc .body{padding-left:0}}
+
+/* flow */
+.flow{display:grid;grid-template-columns:repeat(var(--n,3),minmax(0,1fr));border-top:1px solid var(--ink)}
+.flow>div{padding:18px 20px 18px 0;border-right:1px solid var(--rule);margin-right:20px}
+.flow>div:last-child{border-right:0;margin-right:0}
+.flow .n{font-family:var(--serif-lat);font-style:italic;font-size:28px;line-height:1;display:block;margin-bottom:10px}
+@media (max-width:700px){.flow{grid-template-columns:1fr}.flow>div{border-right:0;margin-right:0;border-bottom:1px solid var(--rule)}}
+
+/* list board (FATF) */
+.board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid var(--ink)}
+.board>div{padding:22px 24px 22px 0;border-bottom:1px solid var(--rule)}
+.board>div:nth-child(odd){border-right:1px solid var(--rule);margin-right:24px}
+.board .lab{display:block;margin-bottom:10px}
+.board .names{font-family:var(--serif);font-size:20px;line-height:1.6}
+.board .names s{color:var(--muted);text-decoration-thickness:1px}
+@media (max-width:700px){.board{grid-template-columns:1fr}.board>div:nth-child(odd){border-right:0;margin-right:0}}
+
+/* timeline vertical (TW) */
+.vt{border-left:1px solid var(--ink);margin-left:6px}
+.vt>div{position:relative;padding:0 0 26px 28px}
+.vt>div::before{content:"";position:absolute;left:-5px;top:9px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:1px solid var(--ink)}
+.vt>div.now::before{background:var(--ink)}
+.vt .d{font-family:var(--serif-lat);font-size:19px;display:block;line-height:1.4}
+.vt .st{font-family:var(--label);font-size:10.5px;letter-spacing:.16em;color:var(--muted);margin-left:10px}
+
+/* figures */
+.figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--ink)}
+.figs>div{padding:22px 20px 22px 0;border-right:1px solid var(--rule);margin-right:20px}
+.figs>div:last-child{border-right:0;margin-right:0}
+.figs .v{font-family:var(--serif-lat);font-weight:300;font-size:clamp(34px,4vw,48px);line-height:1;display:block;font-variant-numeric:lining-nums}
+.figs .v small{font-family:var(--serif);font-size:.42em;margin-left:4px}
+.figs p{font-size:14px;color:var(--muted);margin:12px 0 0}
+@media (max-width:860px){.figs{grid-template-columns:repeat(2,minmax(0,1fr))}.figs>div:nth-child(2){border-right:0;margin-right:0}.figs>div{border-bottom:1px solid var(--rule)}}
+@media (max-width:460px){.figs{grid-template-columns:1fr}.figs>div{border-right:0;margin-right:0}}
+
+/* stepper */
+.zones{display:grid;grid-template-columns:3fr 1fr 3fr;gap:12px;margin-bottom:8px}
+.zones span{border-top:1px solid var(--ink);padding-top:6px}
+.steps{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px}
+.steps button{text-align:left;padding:14px 10px 14px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:6px;min-height:100%}
+.steps button .n{font-family:var(--serif-lat);font-style:italic;font-size:30px;line-height:1;color:var(--muted)}
+.steps button .t{font-size:13.5px;line-height:1.5;color:var(--muted)}
+.steps button[aria-selected="true"]{border-bottom:1px solid var(--ink)}
+.steps button[aria-selected="true"] .n,.steps button[aria-selected="true"] .t{color:var(--ink)}
+.steps button:hover .t{color:var(--ink)}
+.stage{padding:26px 0 0;display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:32px}
+.stage h4{font-family:var(--serif);font-weight:400;font-size:22px;margin:0 0 6px}
+.stage .ch{border-left:1px solid var(--rule);padding-left:20px}
+.stage .ch .lab{display:block;margin-bottom:8px}
+.stage-nav{display:flex;gap:18px;margin-top:22px}
+.stage-nav button{font-family:var(--label);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.stage-nav button:hover{color:var(--ink)}
+@media (max-width:860px){.zones{display:none}.steps{grid-template-columns:repeat(4,minmax(0,1fr))}.stage{grid-template-columns:1fr}.stage .ch{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:16px}}
+@media (max-width:460px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* principles */
+.pr{counter-reset:p;border-top:1px solid var(--ink)}
+.pr>div{display:grid;grid-template-columns:56px 220px minmax(0,1fr);gap:20px;padding:18px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.pr .n{font-family:var(--serif-lat);font-style:italic;font-size:26px;line-height:1}
+.pr .k{font-family:var(--serif);font-weight:500}
+@media (max-width:700px){.pr>div{grid-template-columns:40px minmax(0,1fr)}.pr>div .v{grid-column:2}}
+
+/* refs */
+.refs{margin-top:56px;padding-top:18px;border-top:1px solid var(--rule)}
+.refs .lab{display:block;margin-bottom:10px}
+.refs ul{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:14px}
+.refs li{color:var(--muted)}
+.refs a{color:var(--ink)}
+
+/* next */
+.next{border-top:1px solid var(--ink)}
+.next>div{display:grid;grid-template-columns:200px minmax(0,1fr) 140px;gap:24px;padding:22px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.next .d{font-family:var(--serif-lat);font-size:26px;line-height:1.1}
+.next .left{font-family:var(--label);font-size:12px;letter-spacing:.12em;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.next .v b{font-weight:500}
+@media (max-width:700px){.next>div{grid-template-columns:1fr}.next .left{text-align:left}}
+
+/* overlay index */
+.ov{position:fixed;inset:0;z-index:40;background:var(--bg);overflow-y:auto;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.ov .wrap{padding-block:28px 64px}
+.ov-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px}
+.ov-top button{font-family:var(--label);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase}
+.ov ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 64px}
+.ov li a{display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--rule);text-decoration:none}
+.ov li .num{font-size:22px;min-width:3.2em}
+.ov li .t{font-family:var(--serif);font-size:clamp(18px,2.2vw,26px);font-weight:300}
+.ov li .lab{margin-left:auto}
+.ov li a:hover .t{color:var(--accent)}
+@media (max-width:760px){.ov ol{grid-template-columns:1fr}}
+
+/* progress */
+.prog{position:fixed;right:max(20px,env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:15;display:flex;gap:10px;align-items:center;background:var(--bg);border:1px solid var(--rule);border-radius:999px;padding:6px 8px 6px 16px}
+.prog .lab{white-space:nowrap}
+.prog button{width:30px;height:30px;border-radius:50%;font-family:var(--serif-lat);font-size:20px;line-height:1;display:grid;place-items:center}
+.prog button:hover{background:var(--mark)}
+@media (max-width:600px){.prog .lab .pt{display:none}}
+
+footer{border-top:1px solid var(--ink);padding-block:40px 96px;color:var(--muted);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+kbd{font-family:var(--label);font-size:11px;border:1px solid var(--rule);border-radius:4px;padding:0 5px}
+
+/* presentation mode */
+body.present{--scale:1.16}
+body.present .sec{min-height:calc(100vh - 60px);display:flex;align-items:center}
+body.present .sec>.wrap{width:100%}
+body.present .refs{display:none}
+html.snap{scroll-snap-type:y proximity}
+html.snap .sec,html.snap .hero,html.snap .chapter{scroll-snap-align:start}
+
+/* ===== 平板放大 ===== */
+:root{--muted:#625D55}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--muted:#BBB5AB;--rule:#403C36}}
+:root[data-theme="dark"]{--muted:#BBB5AB;--rule:#403C36}
+body{font-size:calc(21px*var(--scale));line-height:1.8}
+.lab{font-size:14px;letter-spacing:.16em}
+.bar .wrap{min-height:68px}
+.bar .brand{font-size:14px}
+.seg button{font-size:15.5px;padding:9px 16px}
+.tools{gap:24px}.tools button{font-size:15px}
+.hero h1{font-size:clamp(48px,8vw,112px)}
+.hero .range{font-size:clamp(28px,3.2vw,42px)}
+.hero .intro{max-width:36em}
+.sh-meta .num{font-size:54px}
+.sb{max-width:1040px}
+.sb h2{font-size:clamp(36px,4.6vw,58px)}
+.sb .date{font-size:16.5px;letter-spacing:.04em}
+.lead{max-width:40em}
+.sb h3{font-size:14.5px;margin:52px 0 20px}
+.row>.k{font-size:20px}
+.mx tbody th{font-size:21px}
+.sh-meta .lab{font-family:var(--serif);font-size:24px;letter-spacing:.06em;color:var(--ink);text-transform:none}
+/* 11 吋平板可讀性 */
+body{font-size:calc(22px*var(--scale))}
+.lab{font-size:16px;letter-spacing:.12em}
+.bar .brand{font-size:15px}.seg button{font-size:17px}.tools button{font-size:17px}
+.sb h3{font-size:20px;letter-spacing:.1em;color:var(--ink);font-weight:500;margin:56px 0 22px}
+.sb .date{font-size:19px}
+.note{font-size:1em}
+.refs ul{font-size:18.5px}
+.figs p{font-size:18.5px}
+.steps button .t{font-size:18.5px}
+.mk .d{font-size:24px}.mk .t{font-size:18px}
+.tl{min-width:860px;padding:130px 14px 240px 4px}
+.mk{--gap:calc(16px + var(--tier,0)*100px)}
+.tl-start{font-size:24px}
+.next .left{font-size:18px}
+.vt .st{font-size:15px}
+.prog .lab{font-size:16px}
+footer{font-size:17px}
+.mx thead th.lab{font-size:19px}
+.ov-gh .gt{font-size:30px}
+@media (min-width:461px){.figs{grid-template-columns:repeat(2,minmax(0,1fr))}.figs>div:nth-child(2){border-right:0;margin-right:0}.figs>div{border-bottom:1px solid var(--rule)}}
+.figs .v{font-size:clamp(52px,6vw,76px)}
+@media (max-width:600px){body{font-size:calc(18px*var(--scale))}.sb h3{font-size:17px}.sb .date{font-size:16px}}
+.mx thead th.lab{font-size:18px;letter-spacing:.08em;color:var(--ink)}
+.tabs button{font-size:21px;padding:14px 22px 14px 0}
+details.acc summary{padding:18px 0}
+details.acc summary::after{font-size:30px}
+.flow .n{font-size:36px}
+.board .names{font-size:26px}
+.vt .d{font-size:25px}.vt .st{font-size:13px}
+.figs .v{font-size:clamp(46px,5.2vw,68px)}.figs p{font-size:17px}
+.steps button .n{font-size:40px}.steps button .t{font-size:17px}
+.stage h4{font-size:29px}
+.stage-nav button{font-size:15px}
+.pr .n{font-size:34px}
+.refs ul{font-size:17px;gap:8px}
+.next .d{font-size:32px}.next .left{font-size:15.5px}
+.ov li .num{font-size:28px}.ov li .t{font-size:clamp(22px,2.6vw,32px)}.ov-top button{font-size:15px}
+.prog{padding:6px 8px 6px 18px}.prog .lab{font-size:14px}.prog button{width:46px;height:46px;font-size:28px}
+footer{font-size:16px}kbd{font-size:13px}
+.chapter h2{font-size:clamp(30px,3.6vw,46px)}
+.sec{scroll-margin-top:calc(70px + env(safe-area-inset-top,0px))}
+@media (min-width:861px){
+  .sec-in{grid-template-columns:150px minmax(0,1fr);gap:32px 40px}
+  .chapter .wrap{grid-template-columns:150px minmax(0,1fr);gap:40px}
+  .stage{grid-template-columns:minmax(0,1fr) 300px}
+}
+@media (min-width:601px){
+  .row{grid-template-columns:210px minmax(0,1fr)}
+  details.acc summary{grid-template-columns:230px minmax(0,1fr) 24px}
+  details.acc .body{padding-left:254px}
+}
+@media (min-width:701px){
+  .pr>div{grid-template-columns:64px 270px minmax(0,1fr)}
+  .next>div{grid-template-columns:220px minmax(0,1fr) 170px}
+}
+@media (max-width:600px){body{font-size:calc(17.5px*var(--scale))}.sh-meta .num{font-size:34px}}
+body.present{--scale:1.08}
+
+.ov ol{display:block;grid-template-columns:none}
+.ov .ov-top-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 64px}
+.ov-top-list{list-style:none;margin:0 0 8px;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 64px}
+.ov-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 64px;margin:48px 0 56px}
+.ov-cols:has(.ov-grp:only-child){grid-template-columns:minmax(0,1fr)}
+.ov-grp ol{list-style:none;margin:0;padding:0 0 0 0}
+.ov-gh{display:flex;gap:20px;align-items:flex-end;padding-bottom:14px;border-bottom:1px solid var(--ink);text-decoration:none}
+.ov-gh .big{font-family:var(--serif-lat);font-weight:300;font-size:64px;line-height:.85}
+.ov-gh .lab{display:block}
+.ov-gh .gt{display:block;font-family:var(--serif-lat);font-size:26px;line-height:1.2}
+.ov-gh:hover .gt{color:var(--accent)}
+.ov-grp li a{padding:14px 0 14px 8px}
+@media (max-width:760px){.ov .ov-top-list,.ov-cols{grid-template-columns:1fr}.ov-cols{gap:40px}}
+
+/* ===== 美編層 ===== */
+:root{--band:#E1DDD5;--inv-bg:#24211D;--inv-fg:#EDE9E2;--inv-mut:#A9A399}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--band:#201E1B;--inv-bg:#D8D1C4;--inv-fg:#1A1816;--inv-mut:#5E584F}}
+:root[data-theme="dark"]{--band:#201E1B;--inv-bg:#D8D1C4;--inv-fg:#1A1816;--inv-mut:#5E584F}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.07;mix-blend-mode:soft-light;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.sec.alt{background:var(--band)}
+.hero{position:relative;overflow:hidden}
+.hero .wm{position:absolute;right:-.04em;top:.02em;font-family:var(--serif-lat);font-style:italic;font-weight:300;font-size:clamp(220px,34vw,520px);line-height:.8;color:transparent;-webkit-text-stroke:1px var(--rule);pointer-events:none;user-select:none;letter-spacing:-.02em}
+.hero .wrap{position:relative}
+.chapter{background:var(--inv-bg);color:var(--inv-fg);border-top:0;padding-block:clamp(72px,10vw,140px) clamp(56px,7vw,96px);position:relative;overflow:hidden}
+.chapter .lab,.chapter p{color:var(--inv-mut)}
+.chapter .big{font-size:clamp(96px,16vw,220px);font-style:italic}
+.chapter h2{color:var(--inv-fg)}
+.chapter::after{content:attr(data-range);position:absolute;right:max(24px,env(safe-area-inset-right,0px));bottom:24px;font-family:var(--label);font-size:15px;letter-spacing:.2em;color:var(--inv-mut)}
+.sh-meta .num{color:var(--accent)}
+.sb h3{display:flex;align-items:center;gap:14px}
+.sb h3::before{content:"";width:32px;height:1px;background:var(--accent);flex:none}
+.mk .dot{border-color:var(--accent)}
+.mk:hover .dot,.mk:focus-visible .dot{background:var(--accent)}
+.tl-split{border-left-color:var(--accent)}
+.figs .v{color:var(--accent)}
+.figs .v small{color:var(--ink)}
+.vt{border-left-color:var(--accent)}
+.vt>div.now::before{background:var(--accent);border-color:var(--accent)}
+.steps button[aria-selected="true"]{border-bottom:2px solid var(--accent)}
+.steps button[aria-selected="true"] .n{color:var(--accent)}
+.tabs button[aria-selected="true"]{border-bottom:2px solid var(--accent)}
+.flow .n,.pr .n{color:var(--accent)}
+.next .d{color:var(--accent)}
+.hero h1 em{color:var(--accent)}
+</style>
+
+<header class="bar">
+  <div class="wrap">
+    <span class="brand">( 海外防制洗錢法規動態 )</span>
+    <div class="seg" role="group" aria-label="期間">
+      <button type="button" data-set="all" aria-pressed="true">兩期</button>
+      <button type="button" data-set="p1" aria-pressed="false">10.01–11.03</button>
+      <button type="button" data-set="p2" aria-pressed="false">11.04–11.17</button>
+    </div>
+    <div class="tools">
+      <button type="button" id="btn-present" aria-pressed="false">簡報模式</button>
+      <button type="button" id="btn-index">目錄</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="top" data-label="封面">
+  <span class="wm" aria-hidden="true">AML</span>
+  <div class="wrap">
+    <span class="lab">( 2026 年 10 月至 11 月 · 兩期彙整 )</span>
+    <h1>海外防制洗錢<br>法規動態</h1>
+    <p class="range">2026.10.01 — 2026.11.17</p>
+    <p class="intro">第一期涵蓋 10/1 至 11/3，第二期涵蓋 11/4 至 11/17。</p>
+
+    <div class="tl-scroll">
+    <div class="tl" aria-label="期間軸：第一期標於線上方，第二期標於線下方">
+      <div class="tl-wrap">
+        <div class="tl-line"></div>
+        <div class="tl-split" style="left:71.3%"></div>
+        <span class="tl-start">10.01</span>
+        <a class="mk up l" href="#ph" style="--x:40.4%" data-p="1"><span class="stem"></span><span class="dot"></span><span class="txt"><span class="d">10.20</span><span class="t">菲律賓<br>DNFBP 登記</span></span></a>
+        <a class="mk up r" href="#hk" style="--x:44.7%" data-p="1"><span class="stem"></span><span class="dot"></span><span class="txt"><span class="d">10.22</span><span class="t">香港<br>開戶反賄賂</span></span></a>
+        <a class="mk up r rng" href="#fatf" style="--x:59.6%;--w:34px" data-p="1"><span class="stem"></span><span class="dot"></span><span class="txt"><span class="d">10.28–30</span><span class="t">FATF<br>全會</span></span></a>
+        <a class="mk dn l" href="#scam" style="--x:74.5%" data-p="2"><span class="stem"></span><span class="dot"></span><span class="txt"><span class="d">11.05</span><span class="t">FATF<br>詐騙園區報告</span></span></a>
+        <a class="mk dn r" href="#tw" style="--x:76.6%" data-p="2"><span class="stem"></span><span class="dot"></span><span class="txt"><span class="d">11.06</span><span class="t">我國<br>金管會預告</span></span></a>
+        <a class="mk dn l" href="#vn57" style="--x:100%;--tier:1" data-p="2"><span class="stem"></span><span class="dot"></span><span class="txt"><span class="d">11.17</span><span class="t">越南<br>57 號通知刊登</span></span></a>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="overview" data-label="總覽">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">001/</span><span class="lab">( 總覽 )</span></div>
+    <div class="sb" style="max-width:none">
+      <h2>總覽</h2>
+      <div class="mx" style="margin-top:36px">
+        <table>
+          <thead><tr><th class="lab" scope="col">國家／組織</th><th class="lab" scope="col" data-p="1">第一期 10.01–11.03</th><th class="lab" scope="col" data-p="2">第二期 11.04–11.17</th></tr></thead>
+          <tbody>
+            <tr class="go" data-href="#tw"><th scope="row">我國</th><td class="none" data-p="1">-</td><td data-p="2">11/6 金管會預告修正「金融機構防制洗錢辦法」等四項草案，配合「虛擬資產服務法」將穩定幣發行人納入防制洗錢規範；意見截止日為 2026/12/16</td></tr>
+            <tr class="go" data-href="#vn"><th scope="row">越南</th><td data-p="1">「防制洗錢法」修正 12/1 生效；續列灰名單，若至 2027/2 仍無改善，FATF 將考慮下一步措施</td><td data-p="2">越南國家銀行發布「防制洗錢監理程序通知」，2026/12/1 生效</td></tr>
+            <tr class="go" data-href="#hk"><th scope="row">香港</th><td data-p="1">香港金融管理局發布「開戶反賄賂控制通函」</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr class="go" data-href="#ph"><th scope="row">菲律賓</th><td data-p="1">菲律賓防制洗錢委員會重申僅得與已登記之 DNFBP 往來</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr class="go" data-href="#mm"><th scope="row">緬甸</th><td data-p="1">續列黑名單；至 2027/2 仍無進展將考慮反制措施</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr><th scope="row">新加坡</th><td class="none" data-p="1">期間內無異動</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr><th scope="row">寮國</th><td class="none" data-p="1">期間內無異動；續列 FATF 灰名單</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr><th scope="row">中國</th><td class="none" data-p="1">期間內無異動</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr><th scope="row">馬來西亞（納閩島）</th><td class="none" data-p="1">期間內無異動</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr><th scope="row">柬埔寨</th><td class="none" data-p="1">期間內無異動</td><td class="none" data-p="2">期間內無異動</td></tr>
+            <tr class="go" data-href="#fatf"><th scope="row">FATF</th><td data-p="1">10/28–30 全會：4 國移出灰名單；針對 VA 及 VASP 啟動定向審查</td><td data-p="2">11/5 發布詐騙園區非法資金流動報告，提出六項打擊原則</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 國際 ===== -->
+<div class="chapter" id="c1" data-range="INTERNATIONAL">
+  <div class="wrap">
+    <span class="big">I.</span>
+    <div><span class="lab">( 國際 )</span><h2>FATF</h2><p>10 月全會、詐騙園區報告</p></div>
+  </div>
+</div>
+
+<section class="sec" id="fatf" data-p="1" data-label="FATF 全會">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">002/</span><span class="lab">( FATF )</span></div>
+    <div class="sb">
+      <h2>2026 年 10 月全會</h2>
+      <p class="date">2026.10.28–30 · 防制洗錢金融行動工作組織（Financial Action Task Force, FATF）</p>
+      <div class="board" style="margin-top:36px">
+        <div><span class="lab">灰名單 · 移出</span><span class="names"><s>保加利亞</s>　<s>象牙海岸</s>　<s>剛果</s>　<s>摩納哥</s></span></div>
+        <div><span class="lab">灰名單 · 本區域仍列</span><span class="names">越南　寮國</span></div>
+        <div><span class="lab">黑名單</span><span class="names">北韓　伊朗　緬甸</span><p class="note" style="margin-top:6px">更新對緬甸及伊朗之聲明。</p></div>
+        <div><span class="lab">VA／VASP</span><p style="margin:0">針對具重要 VA 活動之司法管轄區啟動定向審查及加速追蹤，首批結果預計 2027 年 6 月公布，後續結果於 2027 年 10 月公布。</p></div>
+      </div>
+      <p>全會另通過詐騙園區（scam compounds）相關非法資金流動報告，已於 11/5 公布，見 <a href="#scam">003/</a>。</p>
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-october-2026.html" target="_blank" rel="noopener">FATF, Outcomes FATF Plenary, 28–30 October 2026</a></li>
+        <li><a href="https://www.fatf-gafi.org/en/publications/Fatfrecommendations/launch-targeted-review-strengthen-standards-virtual-assets.html" target="_blank" rel="noopener">FATF, Launch of Targeted Review Process to Accelerate Global Implementation of FATF Standards Relating to Virtual Assets</a></li>
+        <li><a href="https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-october-2026.html" target="_blank" rel="noopener">FATF, Jurisdictions Under Increased Monitoring – 30 October 2026</a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="scam" data-p="2" data-label="FATF 詐騙園區報告">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">003/</span><span class="lab">( FATF )</span></div>
+    <div class="sb">
+      <h2>打擊與詐騙園區相關的端對端非法資金流報告</h2>
+      <p class="date">2026.11.05 · Combating End-to-End Illicit Financial Flows Linked to Scam Compounds: Applying the FATF Toolkit to the Fraud Epidemic</p>
+      <p class="lead">報告把詐騙園區看成跨國犯罪企業，追蹤它從建置、收款、洗錢到再投資的完整金流，並找出可以介入的節點。</p>
+
+      <div class="figs" style="margin-top:40px">
+        <div><span class="v">5,000<small>億美元</small></span><p>全球詐欺年損失估計（p.3）</p></div>
+        <div><span class="v">100<small>+</small></span><p>詐騙園區鎖定的受害者所在管轄區數（p.3）</p></div>
+        <div><span class="v">3–5<small>分鐘</small></span><p>泰國：資金從被害人帳戶離開金融體系所需時間；被害人平均約 20 小時才察覺（p.39）</p></div>
+        <div><span class="v">24–72<small>小時</small></span><p>偵測或報案後追蹤、凍結及返還的關鍵期（p.5）</p></div>
+      </div>
+
+      <h3>金流七階段 · 點選查看</h3>
+      <div class="zones"><span class="lab">上游</span><span class="lab">支付窗口</span><span class="lab">下游</span></div>
+      <div class="steps" role="tablist" aria-label="金流七階段" id="steps"></div>
+      <div class="stage" id="stage" role="tabpanel" aria-live="polite"></div>
+      <div class="stage-nav"><button type="button" id="st-prev">← 上一階段</button><button type="button" id="st-next">下一階段 →</button></div>
+
+      <h3>六項原則（附錄 1）</h3>
+      <div class="pr">
+        <div><span class="n">1</span><span class="k">打擊整體犯罪生態系</span><span class="v">針對首腦、招募與販運網絡、實質受益人、共用設施與專業服務商，而非只看實體園區；優先阻斷多方共用、難以替換的能力。</span></div>
+        <div><span class="n">2</span><span class="k">全程阻斷非法金流</span><span class="v">上游阻斷建置與擴張所需支出，下游攔截付款、人頭帳戶與錢包，並追查、凍結、沒收、返還。</span></div>
+        <div><span class="n">3</span><span class="k">串連跨部門情資</span><span class="v">金融機構、VASP、主管機關、電信與科技業者各自只看到一部分，需以明確法律通道把可行動的訊號送到能行動的一方。</span></div>
+        <div><span class="n">4</span><span class="k">跨境快速行動</span><span class="v">事先建立快速回應與升級路徑，守住介入時間；以作業管道補充正式司法互助。</span></div>
+        <div><span class="n">5</span><span class="k">以被害人為中心</span><span class="v">同時保護詐騙受害者與被販運、被迫犯罪者，落實篩檢與不處罰原則，防止二次加害。</span></div>
+        <div><span class="n">6</span><span class="k">調整做法並重視成效</span><span class="v">持續更新樣態與指標；衡量的是損失是否減少、資產是否返還，而非警示或關戶數量。</span></div>
+      </div>
+
+      <h3>與金融機構相關</h3>
+      <div class="rows">
+        <div class="row"><div class="k">付款攔截</div><div class="v">主要角色在直接掌控帳戶或錢包、能即時行動的金融機構及虛擬資產服務提供者；反詐中心與金融情報中心負責情資、協調與正式權力，不逐筆介入（p.5）。</div></div>
+        <div class="row"><div class="k">可疑交易報告</div><div class="v">仍是重要情資來源，但不是即時阻詐機制，需搭配更快的預防與作業管道（p.39）。</div></div>
+        <div class="row"><div class="k">關戶</div><div class="v">關閉帳戶本身不等於阻斷洗錢網絡，關戶前後應保存情資並考慮追查與保全（p.72）。</div></div>
+        <div class="row"><div class="k">收款端</div><div class="v">付款行看到的是看似正常的授權付款，收款行則可能看到多筆受害者匯入與快速轉出（p.39）。</div></div>
+      </div>
+
+      <h3>我國案例</h3>
+      <div class="rows">
+        <div class="row"><div class="k">電信詐騙</div><div class="v">報告引用我國與美國 FBI 聯合偵辦跨柬埔寨及美國之電信詐騙集團，搗毀 4 處話務機房，每日阻斷逾 126 萬通詐騙電話（p.79）。</div></div>
+        <div class="row"><div class="k">預警與凍結</div><div class="v">各地檢署設可疑帳戶預警及偵查中心，此機制由臺灣高等檢察署首創；銀行及 VASP 發現可疑交易時可先採合理管控並移警查證（p.80）。</div></div>
+        <div class="row"><div class="k">數位證據</div><div class="v">「司法聯盟區塊鏈」以雜湊值驗證數位證據未遭變更（p.70）。</div></div>
+        <div class="row"><div class="k">被害人返還</div><div class="v">依「人口販運防制法」，販運犯罪所得優先發還被害人，餘額始沒收（p.88）。</div></div>
+      </div>
+
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://www.fatf-gafi.org/en/publications/Methodsandtrends/combating-illicit-financial-flows-linked-to-scam-compounds.html" target="_blank" rel="noopener">FATF, Combating End-to-End Illicit Financial Flows Linked to Scam Compounds (2026/11/5)</a></li>
+        <li><a href="https://www.fatf-gafi.org/en/news/combating-illicit-financial-flows-linked-to-scam-compounds.html" target="_blank" rel="noopener">FATF, New Landmark Report from Anti-Money Laundering Watchdog Calls for Global Action to Disrupt Scam Compounds</a></li>
+        <li><a href="https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E6%89%93%E8%A9%90%E6%A9%9F%E5%88%B6%E7%99%BB%E5%9C%8B%E9%9A%9B%E5%A0%B1%E5%91%8A-2030%E6%B4%97%E9%8C%A2%E8%A9%95%E9%91%91%E7%B7%8A%E7%9B%AF%E8%99%9B%E6%93%AC%E5%B9%A3%E8%88%87%E9%8A%80%E6%A8%93-062822463.html" target="_blank" rel="noopener">太報，台灣打詐機制登國際報告　2030洗錢評鑑緊盯虛擬幣與銀樓（2026/11/17）</a></li>
+        <li>頁碼為報告印刷頁碼。</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 各國 ===== -->
+<div class="chapter" id="c2" data-range="JURISDICTIONS">
+  <div class="wrap">
+    <span class="big">II.</span>
+    <div><span class="lab">( 各國 )</span><h2>2026.10.01 — 11.17</h2><p>越南、香港、菲律賓、緬甸、我國</p></div>
+  </div>
+</div>
+
+<section class="sec" id="vn" data-p="1" data-label="越南">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">004/</span><span class="lab">( 越南 )</span></div>
+    <div class="sb">
+      <h2>「防制洗錢法」修正 12/1 生效</h2>
+      <p class="date">第 23/2026/QH16 號 · 2026.08.24 通過 · 2026.12.01 生效</p>
+      <p class="lead">「修正越南國家銀行法、防制洗錢法及信用機構法部分條文之法律」（2026/8/24 通過）將於 2026/12/1 生效。主要修正如下，點選條文展開。</p>
+
+      <h3>主要修正條文</h3>
+      <div>
+        <details class="acc"><summary><span class="k">第 3 條第 7 款</span><span>實質受益人定義</span></summary><div class="body">修正實質受益人定義，納入法律協議（legal arrangements）及客戶代其進行交易之自然人。</div></details>
+        <details class="acc"><summary><span class="k">第 4 條第 1 項 n 款</span><span>加密資產服務納入申報義務</span></summary><div class="body">將「加密資產服務」納入金融機構申報義務之適用範圍。</div></details>
+        <details class="acc"><summary><span class="k">第 9 條第 2 項 c 款</span><span>疑似洗錢時應辨識客戶</span></summary><div class="body">疑似客戶、交易或交易關係人涉及洗錢時應進行客戶辨識，並明定包含交易尚未完成之情形。</div></details>
+        <details class="acc"><summary><span class="k">第 10 條</span><span>客戶辨識資料</span></summary><div class="body">修正個人及組織客戶辨識資料要求；新增法律協議及壽險受益人之資訊蒐集要求；壽險受益人應於給付時完成驗證；得自國家或專業資料庫取得之資訊，無須要求客戶重複提供。</div></details>
+        <details class="acc"><summary><span class="k">第 12 條第 1 項</span><span>電子身分</span></summary><div class="body">客戶身分驗證方式新增電子身分（Căn cước điện tử）及組織電子身分識別帳戶。</div></details>
+        <details class="acc"><summary><span class="k">第 19 條第 1 項</span><span>新產品、新技術</span></summary><div class="body">提供新產品、新服務或採用創新技術之既有產品／服務前，應辨識及評估洗錢風險。</div></details>
+        <details class="acc"><summary><span class="k">第 22 條</span><span>法律協議資訊透明</span></summary><div class="body">強化法律協議資訊透明度，要求受託人等蒐集、更新相關當事人及最終控制人等資訊，並於退出法律協議後至少保存 5 年。</div></details>
+        <details class="acc"><summary><span class="k">第 26 條</span><span>可疑交易判斷</span></summary><div class="body">可疑交易之判斷應依第 27 至 33 條、第 33a 條所列指標及申報機構自行認定之其他可疑指標。</div></details>
+        <details class="acc"><summary><span class="k">第 33a 條（新增）</span><span>加密資產可疑交易指標</span></summary><div class="body">新增 15 項加密資產領域可疑交易指標，包括拆分交易規避辨識或申報門檻、短期異常資金流動、匿名化交易、與高風險地區或未具合法資格之加密資產服務提供者往來等。</div></details>
+      </div>
+
+      <h3>FATF 灰名單</h3>
+      <p>越南行動計畫期限已於 2025 年 5 月屆滿，FATF 對越南改善進度表示重大關切，期待 2027 年 2 月見到具體改善，否則將考慮下一步措施。</p>
+      <details class="acc" style="margin-top:20px"><summary><span class="k">行動計畫</span><span>待改善的 10 項</span></summary><div class="body">
+        風險理解；國際合作；對金融機構及 DNFBP 的風險基礎監理；VA 及 VASP 監管；改善洗錢罪及目標性金融制裁、CDD、STR 等技術遵循缺失；私部門宣導；實質受益人資訊制度；金融情報分析；平行金融調查及增加洗錢案件調查與起訴；防制資武擴目標性金融制裁之遵循監督。
+      </div></details>
+      <p class="note">第二期另有越南國家銀行的監理程序通知，與本法同日生效，見 <a href="#vn57">005/</a>。</p>
+
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/159-vbhn-vpqh.signed.pdf" target="_blank" rel="noopener">越南國會辦公室，防制洗錢法整合文本（Văn bản hợp nhất Luật Phòng, chống rửa tiền）</a></li>
+        <li><a href="https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-october-2026.html" target="_blank" rel="noopener">FATF, Jurisdictions Under Increased Monitoring – 30 October 2026</a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="vn57" data-p="2" data-label="越南 57 號通知">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">005/</span><span class="lab">( 越南 )</span></div>
+    <div class="sb">
+      <h2>防制洗錢監理程序通知</h2>
+      <p class="date">第 57/2026/TT-NHNN 號 · 2026.10.30 簽署 · 2026.11.17 刊登政府公報 · 2026.12.01 生效</p>
+      <p class="lead">越南國家銀行發布「規範貨幣、銀行業務領域防制洗錢監理程序及手續之通知」，2026/12/1 生效，與「防制洗錢法」修正同日施行。</p>
+
+      <h3>監理程序</h3>
+      <div class="flow" style="--n:3">
+        <div><span class="n">1</span>蒐集、處理監理資料。</div>
+        <div><span class="n">2</span>執行遵循監理及風險基礎監理，遠端監理與現場檢查相結合。</div>
+        <div><span class="n">3</span>出具監理報告並提出措施。</div>
+      </div>
+
+      <h3>風險評估的三個面向（第 10 條）</h3>
+      <div class="flow" style="--n:3">
+        <div><span class="n">結構</span>營運規模、組織。外國銀行分行須提供母行資訊。</div>
+        <div><span class="n">固有</span>客戶、產品、通路、地理。</div>
+        <div><span class="n">控制</span>治理、內規、人員配置、年度風險評估。</div>
+      </div>
+
+      <h3>申報機構</h3>
+      <div class="rows">
+        <div class="row"><div class="k">義務（第 27 條）</div><div class="v">每年提供監理資料及洗錢風險評分資料，並對其正確性負責；應依要求說明，並執行監理措施。</div></div>
+        <div class="row"><div class="k">未遵循（第 20 條）</div><div class="v">越南國家銀行發出建議或警示後，申報機構應提出說明及改善計畫；未完全落實者，監理單位得建議主管機關採取處置措施。</div></div>
+      </div>
+
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://vanban.chinhphu.vn/?classid=1&amp;docid=220226&amp;pageid=27160" target="_blank" rel="noopener">越南政府公報第 581 期（2026/11/17），第 118–131 頁（Công báo số 581）</a></li>
+        <li><a href="https://thuvienphapluat.vn/hoi-dap-phap-luat/thong-tu-572026tt-nhnn-quy-dinh-ve-trinh-tu-thu-tuc-giam-sat-hoat-dong-phong-chong-rua-tien-linh-vu-138109971.html" target="_blank" rel="noopener">Thư Viện Pháp Luật, Thông tư 57/2026/TT-NHNN quy định về trình tự, thủ tục giám sát hoạt động phòng, chống rửa tiền</a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="hk" data-p="1" data-label="香港">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">006/</span><span class="lab">( 香港 )</span></div>
+    <div class="sb">
+      <h2>開戶反賄賂控制通函</h2>
+      <p class="date">2026.10.22 · 香港金融管理局 · Anti-bribery &amp; Corruption Controls for Account Opening</p>
+      <p class="lead">香港金管局通函指出犯罪集團向員工行賄以繞過防制洗錢及打擊資恐控制，要求機構將賄賂風險納入風險評估、落實職能分離與四眼原則、加強第三方中介審查、建立異常開戶監控報表，並對現行開戶控制進行差距分析。</p>
+
+      <h3>五個面向的具體要求</h3>
+      <div class="tabs" role="tablist" aria-label="五個面向的具體要求" id="hk-tabs">
+        <button type="button" role="tab" aria-selected="true" aria-controls="hk-panel" data-i="0">風險評估</button>
+        <button type="button" role="tab" aria-selected="false" aria-controls="hk-panel" data-i="1">政策程序</button>
+        <button type="button" role="tab" aria-selected="false" aria-controls="hk-panel" data-i="2">開戶控制</button>
+        <button type="button" role="tab" aria-selected="false" aria-controls="hk-panel" data-i="3">持續監控</button>
+        <button type="button" role="tab" aria-selected="false" aria-controls="hk-panel" data-i="4">治理</button>
+      </div>
+      <div class="panel" role="tabpanel" id="hk-panel" aria-live="polite"></div>
+
+      <h3>後續</h3>
+      <p>香港銀行公會正在香港金管局與廉政公署支持下研擬細部指引；香港金管局表示會持續分享良好做法。通函並未訂遵循期限。</p>
+
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261022-1-EN" target="_blank" rel="noopener">Hong Kong Monetary Authority, Anti-Bribery &amp; Corruption Controls for Account Opening (2026/10/22)</a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="ph" data-p="1" data-label="菲律賓">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">007/</span><span class="lab">( 菲律賓 )</span></div>
+    <div class="sb">
+      <h2>僅得與已登記之 DNFBP 往來</h2>
+      <p class="date">2026.10.20 · 菲律賓防制洗錢委員會</p>
+      <p class="lead">菲律賓防制洗錢委員會重申與指定非金融事業或人員（Designated Non-Financial Businesses and Professions, DNFBP）客戶往來時應查核其登記證。</p>
+      <h3>處理流程</h3>
+      <div class="flow" style="--n:3">
+        <div><span class="n">1</span>向 DNFBP 客戶索取並查核登記證。</div>
+        <div><span class="n">2</span>未能提供者，應執行 EDD 或重新評估業務關係。</div>
+        <div><span class="n">3</span>與未登記之 DNFBP 往來，可能構成重大違規。</div>
+      </div>
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://www.amlc.gov.ph/news-and-announcements/99-all-covered-persons-to-deal-only-with-designated-non-financial-businesses-and-professions-registered-with-the-amlc" target="_blank" rel="noopener">Anti-Money Laundering Council, All Covered Persons to Deal Only with Designated Non-Financial Businesses and Professions Registered with the AMLC (2026/10/20)</a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="mm" data-p="1" data-label="緬甸">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">008/</span><span class="lab">( 緬甸 )</span></div>
+    <div class="sb">
+      <h2>續列黑名單，採加強審查</h2>
+      <p class="date">2026.10.30 · FATF 高風險管轄區聲明</p>
+      <div class="rows" style="margin-top:36px">
+        <div class="row"><div class="k">現行要求</div><div class="v">FATF 要求對緬甸採取 EDD 而非反制措施，金融機構應提高對業務關係監控之程度與性質。</div></div>
+        <div class="row"><div class="k">檢視點</div><div class="v">若至 2027 年 2 月仍無進展，FATF 將考慮反制措施。</div></div>
+        <div class="row"><div class="k">詐騙活動</div><div class="v">FATF 特別強調緬甸的詐欺及網路詐騙活動仍相當廣泛，並造成重大非法金融風險。緬甸已採取部分措施，例如規劃成立國家反網路詐騙中心及加強區域、國際合作，但 FATF 要求其進一步處理相關非法金流。第二期 FATF 詐騙園區報告見 <a href="#scam">003/</a>。</div></div>
+      </div>
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-october-2026.html" target="_blank" rel="noopener">FATF, High-Risk Jurisdictions Subject to a Call for Action – 30 October 2026</a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="tw" data-p="2" data-label="我國">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">009/</span><span class="lab">( 我國 )</span></div>
+    <div class="sb">
+      <h2>穩定幣發行人納入防制洗錢規範</h2>
+      <p class="date">2026.11.06 · 金管會預告 · 意見截止 2026.12.16</p>
+      <p class="lead">金管會預告四項草案，配合 2026/7/22 公布之「虛擬資產服務法」，預告期縮短為 40 日，意見應於 2026/12/16 前提出。</p>
+
+      <h3>四項草案</h3>
+      <div>
+        <details class="acc" open><summary><span class="k">修正洗防辦法</span><span>「金融機構防制洗錢辦法」及「銀行業及其他經金融監督管理委員會指定之金融機構防制洗錢及打擊資恐內部控制與稽核制度實施辦法」部分條文</span></summary><div class="body">納入穩定幣發行人；防制洗錢及打擊資恐專責單位得兼辦防詐業務；配合「洗錢防制法」條次調整修正文字。</div></details>
+        <details class="acc"><summary><span class="k">指定金融機構</span><span>指定穩定幣發行人為「洗錢防制法」第 5 條第 1 項所稱之金融機構</span></summary><div class="body">穩定幣發行人適用金融機構之防制洗錢規範。</div></details>
+        <details class="acc"><summary><span class="k">穩定幣辦法</span><span>「穩定幣發行許可及管理辦法」</span></summary><div class="body">發行人處理申購、贖回前應確認申購人及贖回人身分；主管機關依法限制或處分穩定幣移轉時，發行人應能即時配合。<br><span class="note">補充：發行人限銀行、金控或其銀行轉投資之股份有限公司及金管會指定者；僅限 1:1 連結新臺幣或單一外幣。</span></div></details>
+        <details class="acc"><summary><span class="k">服務商子法</span><span>「虛擬資產服務法」虛擬資產服務商 8 項授權子法</span></summary><div class="body">涵蓋設立許可、負責人及業務人員、業務及財務管理、內部控制與稽核、委外、疑似不法虛擬資產帳戶管理、財務報告及同業公會。</div></details>
+      </div>
+
+      <h3>補充：虛擬資產監理路徑</h3>
+      <div class="vt">
+        <div><span class="d">2021.07.01<span class="st">聲明制</span></span>「虛擬通貨平台及交易業務事業防制洗錢及打擊資恐辦法」施行，業者須向金管會完成洗錢防制法令遵循聲明。</div>
+        <div><span class="d">2024.11.30<span class="st">登記制</span></span>「提供虛擬資產服務之事業或人員洗錢防制登記辦法」施行，未完成登記不得經營。</div>
+        <div><span class="d">2026.07.22<span class="st">許可制</span></span>「虛擬資產服務法」公布，施行日由行政院定之。已完成洗錢防制登記者，應於施行後 12 個月內申請、21 個月內取得許可（第 55 條）。</div>
+        <div><span class="d">2026.08.13<span class="st">平行修法</span></span>行政院通過「洗錢防制法」修正草案，將未經許可經營虛擬資產業務、未經許可發行穩定幣列為洗錢前置犯罪。</div>
+        <div class="now"><span class="d">2026.11.06<span class="st">本期</span></span>子法及防制洗錢規定預告，意見截止 12/16。</div>
+      </div>
+
+      <div class="refs"><span class="lab">參考連結</span><ul>
+        <li><a href="https://www.fsc.gov.tw/ch/home.jsp?id=96&amp;parentpath=0%2C2&amp;mcustomize=news_view.jsp&amp;dataserno=202611030002&amp;dtable=News" target="_blank" rel="noopener">金管會，預告「穩定幣發行許可及管理辦法」草案及修正金融機構洗錢防制相關規定（2026/11/3）</a></li>
+        <li><a href="https://www.banking.gov.tw/ch/home.jsp?id=544&amp;parentpath=0,524,542&amp;mcustomize=multimessage_view.jsp&amp;dataserno=202611060003&amp;aplistdn=ou=bulletin,ou=multisite,ou=chinese,ou=ap_root,o=fsc,c=tw&amp;dtable=NoticeLaw" target="_blank" rel="noopener">銀行局，預告修正「金融機構防制洗錢辦法」等部分條文（2026/11/6）</a></li>
+        <li><a href="https://www.banking.gov.tw/ch/home.jsp?id=544&amp;parentpath=0,524,542&amp;mcustomize=multimessage_view.jsp&amp;dataserno=202611060001&amp;aplistdn=ou=bulletin,ou=multisite,ou=chinese,ou=ap_root,o=fsc,c=tw&amp;dtable=NoticeLaw" target="_blank" rel="noopener">銀行局，預告「指定穩定幣發行人為洗錢防制法第五條第一項所稱之金融機構」草案（2026/11/6）</a></li>
+        <li><a href="https://www.banking.gov.tw/ch/home.jsp?id=544&amp;parentpath=0,524,542&amp;mcustomize=multimessage_view.jsp&amp;dataserno=202611060004&amp;aplistdn=ou=bulletin,ou=multisite,ou=chinese,ou=ap_root,o=fsc,c=tw&amp;dtable=NoticeLaw" target="_blank" rel="noopener">銀行局，預告訂定「穩定幣發行許可及管理辦法」（2026/11/6）</a></li>
+        <li><a href="https://www.president.gov.tw/File/Doc/7b83e1ff-8e34-4603-af35-e5b6fd2ae1ce" target="_blank" rel="noopener">總統府公報，虛擬資產服務法（華總一經字第11500067161號）</a></li>
+        <li><a href="https://www.ey.gov.tw/Page/9277F759E41CCD91/fc4d2ff5-4d4b-4129-ae5c-239e3d1ed9b7" target="_blank" rel="noopener">行政院，通過「洗錢防制法」修正草案（2026/8/13）</a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="next" data-label="後續時程">
+  <div class="wrap sec-in">
+    <div class="sh-meta"><span class="num">010/</span><span class="lab">( 後續 )</span></div>
+    <div class="sb" style="max-width:none">
+      <h2>後續時程</h2>
+      <p class="date">右欄天數依開啟頁面當日計算</p>
+      <div class="next" style="margin-top:36px">
+        <div data-date="2026-12-01"><span class="d">2026.12.01</span><span class="v"><b>越南</b>　「防制洗錢法」修正及「防制洗錢監理程序通知」同日生效</span><span class="left"></span></div>
+        <div data-date="2026-12-16"><span class="d">2026.12.16</span><span class="v"><b>我國</b>　金管會四項草案預告意見截止</span><span class="left"></span></div>
+        <div data-date="2027-02-01"><span class="d">2027.02</span><span class="v"><b>FATF</b>　檢視越南改善進度；緬甸若無進展將考慮反制措施</span><span class="left"></span></div>
+        <div data-date="2027-06-01"><span class="d">2027.06</span><span class="v"><b>FATF</b>　VA／VASP 定向審查首批結果預計公布（後續結果於 2027 年 10 月）</span><span class="left"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>資料期間 2026.10.01–11.17 · 內容以官方公告為準</span>
+    <span><kbd>←</kbd> <kbd>→</kbd> 切換段落　<kbd>P</kbd> 簡報模式　<kbd>M</kbd> 目錄</span>
+  </div>
+</footer>
+
+<div class="prog" aria-live="off">
+  <button type="button" id="pv" aria-label="上一段">‹</button>
+  <span class="lab"><span id="pn">—</span><span class="pt"> · <span id="pl"></span></span></span>
+  <button type="button" id="nx" aria-label="下一段">›</button>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="ov" id="ov" hidden role="dialog" aria-modal="true" aria-label="目錄">
+  <div class="wrap">
+    <div class="ov-top"><span class="lab">( 目錄 )</span><button type="button" id="ov-close">關閉</button></div>
+    <div id="ov-list"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const root=document.documentElement;
+  root.dataset.period='all';
+
+  /* HKMA tabs */
+  const hk=[
+    ['把賄賂風險納入洗錢／資武擴風險評估','特別注意利益衝突、透過第三方中介開戶'],
+    ['CDD 文件要求、審核程序、核准層級要完整','提醒員工違反反賄賂規定的後果'],
+    ['職能分離、四眼原則、輪派審核人員','高風險案件善用遠距開戶等科技、留存稽核軌跡','對第三方中介加強盡職調查','對高風險分行或人員開立的帳戶抽查、回訪，留意轉介費或回佣'],
+    ['建 MIS 報表偵測開戶量異常攀升、員工異常交易、與第三方中介相關的帳戶','以風險為基礎做回溯檢視'],
+    ['高階管理層明確分配開戶賄賂風險的管理責任','對現行開戶控制做差距分析']
+  ];
+  const hkTabs=[...document.querySelectorAll('#hk-tabs button')], hkPanel=document.getElementById('hk-panel');
+  function hkShow(i){hkTabs.forEach((b,j)=>b.setAttribute('aria-selected',String(i===j)));hkPanel.innerHTML='<ul>'+hk[i].map(t=>'<li>'+t+'</li>').join('')+'</ul>';}
+  hkTabs.forEach((b,i)=>b.addEventListener('click',()=>hkShow(i)));
+  hkShow(0);
+
+  /* FATF seven stages */
+  const st=[
+    ['建置據點與支撐設施','取得實體或混合據點，仰賴賄賂、不透明法律結構、在地協力者、數位設施與專業中介；此時就先備妥收款與洗錢管道。','場地租購、電信與 IT 設備、招募與交通、賄賂、前台公司、人頭帳戶'],
+    ['招募工人與獲取受害者','兩類被害人可能重疊：以假職缺招募並被迫行騙的被販運者，以及透過社群、通訊、交友軟體、假投資平台接觸的詐騙受害者。也有以假廣告吸引受害者主動聯繫。','招募費、機票與簽證代付、廣告費'],
+    ['執行詐騙','以投資詐騙為主，常以感情或信任經營先行。以假儀表板、小額返利，反覆要求「稅金」「解凍費」「提領費」；也有誘使受害者簽署區塊鏈授權後直接轉走代幣。','受害者多次付款'],
+    ['收款與初步處置','款項進入個人、公司或人頭帳戶、電子錢包或虛擬資產錢包；部分案例在受害者付款後 2 分鐘內即轉出。也有面交現金、購買黃金由車手取件、禮品卡。','電匯、即時支付、現金、黃金'],
+    ['分層與掩飾','經人頭網絡、公司帳戶、P2P、OTC、境內外 VASP、地下通匯快速分散；換成穩定幣後經跨鏈橋、混幣器或博弈平台掩飾。地下通匯以境內收本幣、境外付外幣對敲。','人頭帳戶、穩定幣、OTC、地下通匯'],
+    ['出金與整合','提領現金、經 VASP 或 OTC 換回法幣、地下通匯，或整合至不動產、精品、車輛、貴金屬與前台公司；現金再以車輛或包裹跨境運送。','現金、地下通匯、不動產、貴金屬'],
+    ['獲利提取與再投資','部分轉為控制者資產，其餘支付工人、警衛、招募者，或再投資於場地、數位設施、行賄與新詐騙，使模式得以延續、遷移或分散。','回到第 1 階段']
+  ];
+  const steps=document.getElementById('steps'), stage=document.getElementById('stage');
+  let cur=3;
+  st.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.innerHTML='<span class="n">'+(i+1)+'</span><span class="t">'+s[0]+'</span>';b.addEventListener('click',()=>show(i));steps.appendChild(b);});
+  function zone(i){return i<3?'上游':(i===3?'支付窗口':'下游');}
+  function show(i){cur=(i+7)%7;[...steps.children].forEach((b,j)=>b.setAttribute('aria-selected',String(j===cur)));
+    const s=st[cur];stage.innerHTML='<div><span class="lab">階段 '+(cur+1)+' · '+zone(cur)+'</span><h4 style="margin-top:8px">'+s[0]+'</h4><p style="margin:0">'+s[1]+'</p></div><div class="ch"><span class="lab">常見管道</span>'+s[2]+'</div>';}
+  document.getElementById('st-prev').addEventListener('click',()=>show(cur-1));
+  document.getElementById('st-next').addEventListener('click',()=>show(cur+1));
+  show(3);
+
+  /* overview rows */
+  document.querySelectorAll('.mx tr.go').forEach(tr=>{tr.tabIndex=0;const go=()=>{const id=tr.dataset.href;const el=document.querySelector(id);if(el&&el.offsetParent===null)setPeriod('all');document.querySelector(id).scrollIntoView();};tr.addEventListener('click',go);tr.addEventListener('keydown',e=>{if(e.key==='Enter')go();});});
+
+  /* countdown */
+  const today=new Date();today.setHours(0,0,0,0);
+  document.querySelectorAll('.next>div').forEach(r=>{const d=new Date(r.dataset.date+'T00:00:00');const n=Math.round((d-today)/864e5);r.querySelector('.left').textContent=n>0?('還有 '+n+' 天'):(n===0?'今天':'已過');});
+
+  /* sections & navigation */
+  const all=[...document.querySelectorAll('.hero,.sec')];
+  const vis=()=>all.filter(s=>s.offsetParent!==null);
+  const pn=document.getElementById('pn'), pl=document.getElementById('pl');
+  function curIdx(){const v=vis();const y=window.innerHeight*0.35;let k=0;v.forEach((s,i)=>{if(s.getBoundingClientRect().top<=y)k=i;});return k;}
+  function upd(){const v=vis(),k=curIdx(),s=v[k];const m=s.querySelector('.sh-meta .num');pn.textContent=m?m.textContent:'封面';pl.textContent=s.dataset.label||'';}
+  function go(d){const v=vis();const k=curIdx();const t=v[Math.max(0,Math.min(v.length-1,k+d))];t.scrollIntoView();}
+  document.getElementById('pv').addEventListener('click',()=>go(-1));
+  document.getElementById('nx').addEventListener('click',()=>go(1));
+  window.addEventListener('scroll',()=>requestAnimationFrame(upd),{passive:true});
+  upd();
+
+  /* period */
+  const segBtns=[...document.querySelectorAll('.seg button')];
+  function bands(){let k=0;all.filter(x=>x.classList.contains('sec')).forEach(x=>{if(x.offsetParent===null)return;x.classList.toggle('alt',k%2===1);k++;});}
+  function setPeriod(p){root.dataset.period=p;bands();segBtns.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.set===p)));buildIndex();upd();}
+  segBtns.forEach(b=>b.addEventListener('click',()=>{setPeriod(b.dataset.set);document.getElementById(b.dataset.set==='all'?'top':b.dataset.set).scrollIntoView();}));
+
+  /* present mode */
+  const pb=document.getElementById('btn-present');
+  function present(on){document.body.classList.toggle('present',on);root.classList.toggle('snap',on);pb.setAttribute('aria-pressed',String(on));}
+  pb.addEventListener('click',()=>present(!document.body.classList.contains('present')));
+
+  /* index overlay */
+  const ov=document.getElementById('ov'), ol=document.getElementById('ov-list');
+  function buildIndex(){
+    const P=root.dataset.period;
+    const item=s=>{const m=s.querySelector('.sh-meta .num');return '<li><a href="#'+s.id+'"><span class="num">'+(m?m.textContent:'000/')+'</span><span class="t">'+(s.dataset.label||'')+'</span></a></li>';};
+    const vis=s=>!(P==='p1'&&s.dataset.p==='2')&&!(P==='p2'&&s.dataset.p==='1');
+    const grp=(id,big,name,sub,ids)=>{const li=ids.map(x=>document.getElementById(x)).filter(vis);return li.length?'<div class="ov-grp"><a class="ov-gh" href="#'+id+'"><span class="big">'+big+'</span><span><span class="lab">( '+name+' )</span><span class="gt">'+sub+'</span></span></a><ol>'+li.map(item).join('')+'</ol></div>':'';};
+    let h='<ol class="ov-top-list">'+item(document.getElementById('top'))+item(document.getElementById('overview'))+'</ol><div class="ov-cols">';
+    h+=grp('c1','I.','國際','FATF',['fatf','scam']);
+    h+=grp('c2','II.','各國','越南、香港、菲律賓、緬甸、我國',['vn','vn57','hk','ph','mm','tw']);
+    h+='</div><ol class="ov-top-list">'+item(document.getElementById('next'))+'</ol>';
+    ol.innerHTML=h;
+    ol.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{ov.hidden=true;}));
+  }
+  buildIndex();
+  bands();
+  document.getElementById('btn-index').addEventListener('click',()=>{ov.hidden=false;document.getElementById('ov-close').focus();});
+  document.getElementById('ov-close').addEventListener('click',()=>{ov.hidden=true;});
+
+  /* keyboard */
+  document.addEventListener('keydown',e=>{
+    if(e.target.closest('input,textarea,select'))return;
+    if(e.key==='Escape'&&!ov.hidden){ov.hidden=true;return;}
+    if(!ov.hidden)return;
+    const inPresent=document.body.classList.contains('present');
+    if(e.key==='ArrowRight'||e.key==='PageDown'||(inPresent&&e.key==='ArrowDown')){e.preventDefault();go(1);}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'||(inPresent&&e.key==='ArrowUp')){e.preventDefault();go(-1);}
+    else if(e.key==='p'||e.key==='P'){present(!inPresent);}
+    else if(e.key==='m'||e.key==='M'){ov.hidden=false;}
+  });
+})();
+</script>
+
+</body></html>
